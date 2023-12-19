@@ -19,7 +19,7 @@ python script_1.py
 ```
 (вместо P:\devman укажите  путь к файлу в вашей файловой системе)
 ### Результат выполнения  скрипта
-Пример вывода терминале после выполнения  скрипта:
+Пример вывода в PowerShell после выполнения  скрипта:
 <img src="https://github.com/BigBadRussian/DevMan-Weather-from-API/blob/main/resultJPEG.jpg"/>
 
 
