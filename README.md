@@ -19,7 +19,7 @@ python script_1.py
 ```
 (вместо P:\devman укажите  путь к файлу в вашей файловой системе)
 ### В результате запуска скрипта терминал выведет погоду в Лондоне, Шереметьево и Череповце:
-<img src="P:\PythonLearn\devMan\2WeatherFromAPI\resultJPEG.jpg"/>
+
 
 
 
