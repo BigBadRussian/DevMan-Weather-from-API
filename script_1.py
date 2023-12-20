@@ -1,7 +1,7 @@
 import requests
 
 
-def request_for_weather(undefined_location):
+def request_for_weather(geo_point):
     url = 'https://wttr.in/'
     http_params = {"mMnqT": "", "lang": "ru"}
     try:
@@ -16,7 +16,11 @@ def request_for_weather(undefined_location):
         print('Timeout occurred')
 
 
-if __name__ == '__main__':
+def main():
     geo_points = ['London', 'svo', 'Череповец']
     for geo_point in geo_points:
         print(request_for_weather(geo_point))
+
+
+if __name__ == '__main__':
+    main()
