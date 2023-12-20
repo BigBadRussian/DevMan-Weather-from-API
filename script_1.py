@@ -10,7 +10,7 @@ def request_for_weather(geo_point):
 
 
 def main():
-    geo_points = ['London', 'London', 'Череповец']
+    geo_points = ['London', 'svo', 'Череповец']
     for geo_point in geo_points:
         try:
             print(request_for_weather(geo_point))
